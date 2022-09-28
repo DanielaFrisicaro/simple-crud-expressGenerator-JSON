@@ -1,0 +1,62 @@
+[
+  {
+    "pais": " Mexico",
+    "plato": "Quesadillas",
+    "id": 1
+  },
+  {
+    "pais": "Argentina Modificado",
+    "plato": "Asado",
+    "id": 2
+  },
+  {
+    "pais": "Peru Modificado",
+    "plato": "Ceviche",
+    "id": 3
+  },
+  {
+    "pais": "EEUU",
+    "plato": "Hamburguesa",
+    "id": 4
+  },
+  {
+    "pais": "EEUU",
+    "plato": "Hot dog",
+    "id": 5
+  },
+  {
+    "pais": "Mexico",
+    "plato": "Fajitas",
+    "id": 6
+  },
+  {
+    "pais": "Colombia",
+    "plato": "Arepas",
+    "id": 7
+  },
+  {
+    "pais": "Paraguay",
+    "plato": "Sopa Paraguaya",
+    "id": 8
+  },
+  {
+    "pais": "Paraguay",
+    "plato": "Asado",
+    "id": 9
+  },
+  {
+    "pais": "Italia",
+    "plato": "Tallarines",
+    "id": 10
+  },
+  {
+    "pais": "Italia",
+    "plato": "Ravioles",
+    "id": 11
+  },
+  {
+    "pais": "Producto Prueba a Eliminar",
+    "plato": "Producto Prueba a Eliminar",
+    "id": 12
+  }
+]

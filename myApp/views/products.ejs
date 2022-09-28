@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+
+</head>
+
+<body class="container bg-success p-2 text-dark bg-opacity-50">
+    <h1 class="container">Platos por el Mundo</h1>
+    <br>
+    <button><a href="/products/create">CREAR</a></button>
+    <button><a href="/">HOME</a></button>
+    <br><br>
+
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <% for (let i=0; i<foods.length; i++){ %>
+            <div class="col">
+                <div class="card">
+                    <img src="../images/food-mix-set-11695104.jpg" width="100" height="100" class="card-img-fluid"
+                        alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <%= foods[i].plato %>
+                        </h5>
+                        <p class="card-text">
+                            <%= foods[i].pais %>
+                        </p>
+                        <button><a href="/products/<%=foods[i].id%>/editar">Editar</a></button>
+                        <button><a href="/products/<%=foods[i].id%>/delete">Eliminar</a></button>
+                        <button><a href="/products/<%=foods[i].id%>/detail">Ver Detalle</a></button>
+                    </div>
+                </div>
+            </div>
+            <% } %>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+        crossorigin="anonymous"></script>
+
+</body>
+
+</html>
